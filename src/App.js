@@ -1,12 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
+import CountApp from './AxiosData/CountApp';
+// import PostForm from './AxiosData/PostForm';
+// import PostList from './AxiosData/PostList';
+// import MemoComp from './Components/MemoComp';
+// import ParentComp from './Components/ParentComp';
+// import PureComp from './Components/PureComp';
 // import Inlinecss from './styles/Inlinecss';
 // import Stylesheet from './styles/Stylesheet';
 // import '../src/styles/appStyle.module.css';
 // import '../src/styles/appStyle.css';
 // import style from '../src/styles/appStyle.module.css'
 // import Form1 from './Forms/Form1';
-import LifeCycle1 from './LifeCycle/LifeCycle1';
+// import LifeCycle1 from './LifeCycle/LifeCycle1';
 
 function App() {
   return (
@@ -17,7 +23,13 @@ function App() {
       {/* <Stylesheet primary = {true}/> */}
       {/* <Inlinecss /> */}
       {/* <Form1 /> */}
-      <LifeCycle1 />
+      {/* <LifeCycle1 /> */}
+      {/* <PureComp /> */}
+      {/* <ParentComp /> */}
+      {/* <MemoComp /> */}
+      {/* <PostList /> */}
+      {/* <PostForm /> */}
+      <CountApp />
     </div>
   );
 }
